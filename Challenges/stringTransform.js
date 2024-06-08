@@ -24,4 +24,6 @@ function stringTransform (str) {
   }
 }
 
-console.log(stringTransform('Hamburger'));
+// Example: Input: "Pizza"
+// Output: "80 105 122 122 97"
+console.log(stringTransform('Pizza'));
