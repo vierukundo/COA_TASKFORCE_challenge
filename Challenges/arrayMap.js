@@ -21,5 +21,7 @@ function ArrayManipulation (arr, target) {
 }
 
 // Example usage:
+// Input: arr = [4, 2, 7, 1, 9, 5], target = 17
+// Output: true
 const arr = [4, 2, 7, 1, 9, 5];
-console.log(ArrayManipulation(arr, 10)); // Should return true
+console.log(ArrayManipulation(arr, 17)); // Should return true
