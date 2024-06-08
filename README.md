@@ -25,8 +25,9 @@ To run a specific challenge, follow these steps:
 3. Run the challenge by typing the following command:
 
 `node [filename of specific challenge]`
+
 Replace [filename of specific challenge] with the actual filename of the challenge you want to run.
 
 Example:
 
-`node challenge1.js`
+`node stringTransform.js`
