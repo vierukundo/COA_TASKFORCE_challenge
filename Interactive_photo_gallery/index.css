@@ -24,8 +24,11 @@ body {
         width: 95%;
     }
 
-    .caption h1 {
+    /* .caption h1 {
         font-size: 14px;
+    } */
+    .caption, .content {
+        display: none;
     }
 }
 
@@ -43,8 +46,8 @@ body {
 
 .container .image {
     cursor: pointer;
-    margin: auto;
-    height: 60%;
+    margin: auto 0;
+    height: 100%;
     /* width: 300px; */
     overflow: hidden;
     padding: 1px;
@@ -70,12 +73,14 @@ body {
     /* width: 200px; */
     /* text-align: left; */
     bottom: 0px;
+    left: 0;
+    /* background: red; */
+    padding: 0 40px;
 }
 
-.caption h1,
-p {
-    margin-bottom: 5px;
-    padding: 4px 10px;
+.caption p {
+    margin-top: 10px;
+    padding: 0;
 }
 
 .overlay {
@@ -92,11 +97,15 @@ p {
 
 .content {
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0px;
     color: aqua;
     z-index: 2;
-    padding: 0 5px;
+    padding: 0 40px;
+}
+
+.content i {
+    font-size: 14px;
 }
 
 .image:hover .overlay {
