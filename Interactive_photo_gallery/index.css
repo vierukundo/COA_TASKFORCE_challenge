@@ -112,12 +112,14 @@ body {
 
 .content p {
     position: relative;
+    font-family: "Poppins";
+    font-size: 14px;
 }
 
 .content i {
     position: absolute;
     font-size: 14px;
-    padding-top: 3px;
+    padding-top: 4px;
     padding-left: 6px;
 }
 
