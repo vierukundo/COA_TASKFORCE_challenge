@@ -1,6 +1,10 @@
 # COA Task Force Challenge
 
-Welcome to the COA Task Force Challenge repository. This guide will help you set up and run the challenges found in the "Challenges" folder.
+Welcome to the COA Task Force Challenge repository. This guide will help you set up and run the interactive image gallery and the challenges found in the "Challenges" folder.
+
+# Interactive image gallery
+
+Just open the `index.html` in your browser.
 
 # Prerequisites
 
